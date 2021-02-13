@@ -1,0 +1,74 @@
+\hypertarget{namespacerobot__controller}{}\section{robot\+\_\+controller Namespace Reference}
+\label{namespacerobot__controller}\index{robot\+\_\+controller@{robot\+\_\+controller}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{namespacerobot__controller_acf806cd6684de6668604e261d4341aee}{odom\+\_\+callback} (odometry)
+\item 
+def \hyperlink{namespacerobot__controller_a511c31df6f9bf112ed99fb8e649db6ae}{control} ()
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{namespacerobot__controller_a58edf5a58abe5dd46a8003ab9745ef60}{vel\+\_\+pub} = rospy.\+Publisher(\textquotesingle{}/cmd\+\_\+vel\textquotesingle{}, Twist, queue\+\_\+size = 10)
+\item 
+\hyperlink{namespacerobot__controller_a091c74e8004fd80216a8b14f8354153d}{client} = rospy.\+Service\+Proxy(\textquotesingle{}/random\+\_\+pos\+\_\+2d\textquotesingle{}, Random\+Pos2D)
+\item 
+int \hyperlink{namespacerobot__controller_a201e078a81ec56081b71169719afd965}{target\+\_\+x} = 0
+\item 
+int \hyperlink{namespacerobot__controller_a7e1908202f7344a885f0de5465274c21}{target\+\_\+y} = 0
+\item 
+int \hyperlink{namespacerobot__controller_aa848ff1d1e6f8078c8cc9dec8e82c028}{k} = 1
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}\end{DoxyVerb}
+ 
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{namespacerobot__controller_a511c31df6f9bf112ed99fb8e649db6ae}\label{namespacerobot__controller_a511c31df6f9bf112ed99fb8e649db6ae}} 
+\index{robot\+\_\+controller@{robot\+\_\+controller}!control@{control}}
+\index{control@{control}!robot\+\_\+controller@{robot\+\_\+controller}}
+\subsubsection{\texorpdfstring{control()}{control()}}
+{\footnotesize\ttfamily def robot\+\_\+controller.\+control (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacerobot__controller_acf806cd6684de6668604e261d4341aee}\label{namespacerobot__controller_acf806cd6684de6668604e261d4341aee}} 
+\index{robot\+\_\+controller@{robot\+\_\+controller}!odom\+\_\+callback@{odom\+\_\+callback}}
+\index{odom\+\_\+callback@{odom\+\_\+callback}!robot\+\_\+controller@{robot\+\_\+controller}}
+\subsubsection{\texorpdfstring{odom\+\_\+callback()}{odom\_callback()}}
+{\footnotesize\ttfamily def robot\+\_\+controller.\+odom\+\_\+callback (\begin{DoxyParamCaption}\item[{}]{odometry }\end{DoxyParamCaption})}
+
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{namespacerobot__controller_a091c74e8004fd80216a8b14f8354153d}\label{namespacerobot__controller_a091c74e8004fd80216a8b14f8354153d}} 
+\index{robot\+\_\+controller@{robot\+\_\+controller}!client@{client}}
+\index{client@{client}!robot\+\_\+controller@{robot\+\_\+controller}}
+\subsubsection{\texorpdfstring{client}{client}}
+{\footnotesize\ttfamily robot\+\_\+controller.\+client = rospy.\+Service\+Proxy(\textquotesingle{}/random\+\_\+pos\+\_\+2d\textquotesingle{}, Random\+Pos2D)}
+
+\mbox{\Hypertarget{namespacerobot__controller_aa848ff1d1e6f8078c8cc9dec8e82c028}\label{namespacerobot__controller_aa848ff1d1e6f8078c8cc9dec8e82c028}} 
+\index{robot\+\_\+controller@{robot\+\_\+controller}!k@{k}}
+\index{k@{k}!robot\+\_\+controller@{robot\+\_\+controller}}
+\subsubsection{\texorpdfstring{k}{k}}
+{\footnotesize\ttfamily int robot\+\_\+controller.\+k = 1}
+
+\mbox{\Hypertarget{namespacerobot__controller_a201e078a81ec56081b71169719afd965}\label{namespacerobot__controller_a201e078a81ec56081b71169719afd965}} 
+\index{robot\+\_\+controller@{robot\+\_\+controller}!target\+\_\+x@{target\+\_\+x}}
+\index{target\+\_\+x@{target\+\_\+x}!robot\+\_\+controller@{robot\+\_\+controller}}
+\subsubsection{\texorpdfstring{target\+\_\+x}{target\_x}}
+{\footnotesize\ttfamily int robot\+\_\+controller.\+target\+\_\+x = 0}
+
+\mbox{\Hypertarget{namespacerobot__controller_a7e1908202f7344a885f0de5465274c21}\label{namespacerobot__controller_a7e1908202f7344a885f0de5465274c21}} 
+\index{robot\+\_\+controller@{robot\+\_\+controller}!target\+\_\+y@{target\+\_\+y}}
+\index{target\+\_\+y@{target\+\_\+y}!robot\+\_\+controller@{robot\+\_\+controller}}
+\subsubsection{\texorpdfstring{target\+\_\+y}{target\_y}}
+{\footnotesize\ttfamily int robot\+\_\+controller.\+target\+\_\+y = 0}
+
+\mbox{\Hypertarget{namespacerobot__controller_a58edf5a58abe5dd46a8003ab9745ef60}\label{namespacerobot__controller_a58edf5a58abe5dd46a8003ab9745ef60}} 
+\index{robot\+\_\+controller@{robot\+\_\+controller}!vel\+\_\+pub@{vel\+\_\+pub}}
+\index{vel\+\_\+pub@{vel\+\_\+pub}!robot\+\_\+controller@{robot\+\_\+controller}}
+\subsubsection{\texorpdfstring{vel\+\_\+pub}{vel\_pub}}
+{\footnotesize\ttfamily robot\+\_\+controller.\+vel\+\_\+pub = rospy.\+Publisher(\textquotesingle{}/cmd\+\_\+vel\textquotesingle{}, Twist, queue\+\_\+size = 10)}
+
