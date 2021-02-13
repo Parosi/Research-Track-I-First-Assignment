@@ -19,6 +19,7 @@ The other ROS node is called **robot_controller.py**. It implements one publishe
 The first one is control(), in which there is the initialization of the node and the initialization of the subscriber with its callback. The latter is the second function (odom_callback(odometry)) of the node. In the beginning it controls if the target has been reached, performing a subtraction between the target coordinates and the just received robot coordinates, if this condition is true it does a request to the random_pos_2d_server obtaining a new target. After that it calculates the x and y linear velocities, multiplying by a constant k (that we have used equal to 1) the difference between the target and the actual position of the robot, and publishes them to the /cmd_vel topic.
 
 In the following image there is the graph of the architecture:
+
 ![](rosgraph1.png)
 
 ## Installation
